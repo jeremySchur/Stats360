@@ -14,7 +14,7 @@ import java.util.Collections;
 public class PUBGService extends GameService {
     public PUBGService() {
         API_URL = "https://api.pubg.com/shards/";
-        AUTH_TOKEN = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhYmYwZDdhMC1kMzY0LTAxM2MtODE3OC03ZTJlMGQ5ZmZjMDQiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNzEyMDkyNzkzLCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6InN0YXRzMzYwIn0.GTsu_fbdOREzPCRsp2-2KBWZbaJKUFgm_E9ROMeMwlI";
+        AUTH_TOKEN = "";
     }
 
     public GameModeStats lifeTimeStats(String username, String service) {
