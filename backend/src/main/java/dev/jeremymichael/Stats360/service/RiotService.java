@@ -14,7 +14,7 @@ import java.util.List;
 @Service
 public class RiotService extends GameService {
     public RiotService() {
-        AUTH_TOKEN = "RGAPI-6b2ebcf9-e7f3-494a-9907-a1bd19591fb9";
+        AUTH_TOKEN = "";
     }
 
     private String PUUID(String riotId) {
